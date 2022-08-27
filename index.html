@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="script.js" defer></script>
+    
+  </head>
+  <body>
+    <header>
+      <div class="title-logo">
+        <img src="https://img.icons8.com/pastel-glyph/96/000000/gumshoes.png" />
+        <p>N-amazon</p>
+      </div>
+      <img
+        src="https://img.icons8.com/dotty/96/000000/shopping-cart-with-money.png"
+      />
+    </header>
+    <main>
+      <div class="card-context">
+        <div class="filters">
+            <div class="filter-title">
+                <p>Filtre</p>
+            </div>
+          <div class="price">
+            <p>Pret</p>
+            <input type="text" placeholder="min" /> -
+            <input type="text" placeholder="max" />
+          </div>
+          <div class="gender">
+            <p>Gen</p>
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">M</label>
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">F</label>
+          </div>
+          <div class="size">
+            <p>Marime</p>
+            <input type="text" />
+          </div>
+          <div class="filter-start">
+            <button>Apply filter</button>
+          </div>
+        </div>
+        <div class="cards">
+        </div>
+      </div>
+      <img src="./img/deermountain.png" class="background-image" />
+    </main>
+  </body>
+</html>

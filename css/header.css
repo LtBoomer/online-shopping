@@ -1,0 +1,12 @@
+.title-logo{
+    display: flex;
+}
+.title-logo p{
+ align-self: flex-end;
+ font-size: 32px;
+ margin-left: 30px;
+ border-left: 2px solid rgb(20, 182, 182);
+}
+header img{
+    cursor: pointer;
+}
