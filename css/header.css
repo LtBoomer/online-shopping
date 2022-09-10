@@ -10,3 +10,19 @@
 header img{
     cursor: pointer;
 }
+.cart{
+    position: relative;
+}
+.counter{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    opacity: 0%;
+    transition-duration: 0.7s;
+}

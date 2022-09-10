@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <script src="script.js" defer></script>
-    
+    <script src="script.js" type="module" defer></script>
   </head>
   <body>
     <header>
@@ -17,9 +16,13 @@
         <img src="https://img.icons8.com/pastel-glyph/96/000000/gumshoes.png" />
         <p>N-amazon</p>
       </div>
-      <img
+      <div class="cart">
+        <img class="cart-image"
         src="https://img.icons8.com/dotty/96/000000/shopping-cart-with-money.png"
-      />
+        />
+        <div class="counter"></div>
+      </div>
+    
     </header>
     <main>
       <div class="card-context">
@@ -44,7 +47,7 @@
             <input type="text" />
           </div>
           <div class="filter-start">
-            <button>Apply filter</button>
+            <button class="filter-button">Apply filter</button>
           </div>
         </div>
         <div class="cards">
@@ -52,5 +55,14 @@
       </div>
       <img src="./img/deermountain.png" class="background-image" />
     </main>
+    <div class="shopping-list">
+      <div class="list">
+        <div class="exit">
+          <img class="exit-button" src="https://img.icons8.com/external-becris-lineal-becris/32/000000/external-cancel-mintab-for-ios-becris-lineal-becris.png"/>
+        </div>
+        <div class="products-list">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
